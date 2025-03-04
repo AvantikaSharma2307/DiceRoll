@@ -43,7 +43,7 @@ function App() {
   
       const { roll } = response.data;
       setDiceValue(roll);
-  
+    
       const isWin = roll >= 4;
       if (isWin) {
         const winAmount = betAmount * multiplier;
@@ -224,7 +224,7 @@ function App() {
             </div>
             
             
-            <div className="w-full grid grid-cols-3 gap-4 mt-auto">
+            <div className="w-full grid gap-4 mt-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 sm:grid-rows-2 md:grid-rows-3">
               <div>
                 <label className="block text-gray-400 mb-2">Multiplier</label>
                 <div className="relative">
