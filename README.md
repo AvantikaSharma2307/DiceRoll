@@ -56,7 +56,12 @@ npm install
 npm start
 ```
 ### Backend Deployed at
+```sh
 https://diceroll-1.onrender.com
+```
 ### Frontend Deployed at
+```sh
+https://roll1-6diceapp.netlify.app/
+```
 
 
