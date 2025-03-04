@@ -39,7 +39,7 @@ function App() {
       interface RollResponse {
         roll: number;
       }
-      const response = await axios.post<RollResponse>("http://localhost:8000/roll-dice", { betAmount });
+      const response = await axios.post<RollResponse>("https://diceroll-1.onrender.com/roll-dice", { betAmount });
   
       const { roll } = response.data;
       setDiceValue(roll);
