@@ -55,5 +55,8 @@ cd ../dice-game-backend
 npm install
 npm start
 ```
+### Backend Deployed at
+https://diceroll-1.onrender.com
+### Frontend Deployed at
 
 
